@@ -1,4 +1,4 @@
-# Webpack Simple Starter
+# Simple Service Worker Generator
 A simple webpack starter without framework (Like Vue, React, Angular, etc.). This project is inspired from [**vue-cli webpack project**](https://github.com/vuejs/vue-cli#vue-build)
 
 ## Getting Started
@@ -22,14 +22,16 @@ That's it!. Files are ready to under the `dist/` directory for production.
 ## What's in this project?
 
 ### Directories
-There are four main directories in project. This directories like below:
+There are six main directories in project. This directories like below:
 ```
 build/		# Webpack configurations
 config/		# Dev and prod configurations
+helpers/    # Service worker config files
 src/ 		# Project development files
 |_ scripts/	# Javascript files
 |_ styles/	# Style files (scss)
 |_ views/	# HTML templates (pug)
+public/      # Service worker file
 static/		# Static files (Like fonts, images)
 ```
 
@@ -40,6 +42,3 @@ static/		# Static files (Like fonts, images)
 - Pug for HTML template
 
 Also, this project is supporting hot reload and include **eslint**
-
-## License
-This project is under the MIT license.
